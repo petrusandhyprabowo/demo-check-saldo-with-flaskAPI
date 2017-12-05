@@ -8,7 +8,7 @@ Created on Mon Dec  4 13:27:48 2017
 
 import dbconnection
 
-dbconnection.connect('localhost','msf','@ndhyHUNT3R','saldodb')
+dbconnection.connect('localhost','username','password','saldodb')
 
 def getSaldo(uid):
     row = dbconnection.selectQuery("usersaldo", uid)
